@@ -34,7 +34,7 @@ h1 {
     color: rgb(245, 3, 3)
 }
 
-h2,
+
 h3,
 h4 {
     font-size: 1.8rem;
@@ -58,6 +58,7 @@ h6 {
 /*sintaxis para las clases en css es con punto (.)*/
 
 .container {
+ 
 
     width: 250px;
     left: 1px;
@@ -94,7 +95,7 @@ header img {
 }
 
 header nav {
-    float: right;
+    float: left;
     margin-top: 10px;
 }
 
@@ -304,4 +305,11 @@ left: 1px;
 padding-left: 1px;
 margin-right: 50%;
 
+}
+.tv{
+    border: solid 5px black;
+    margin-right: 250%;
+left: 10%;
+align-items:center ;
+    
 }
