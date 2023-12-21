@@ -18,6 +18,7 @@ fuentes, colores y recursos*/
 
 
 body {
+    justify-content: left;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2rem;
     background-color: #fe4336;
@@ -96,13 +97,14 @@ header img {
 
 header nav {
     float: left;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 header nav a {
     color: rgb(163, 25, 25);
     text-decoration: none;
     margin-left: 10px;
+    margin-right: 100px;
     font-weight: bold;
     padding: 10px 15px;
 }
@@ -126,7 +128,7 @@ header nav a.active {
 /*los identificadores (id) en el html, su sintaxis en css es el numeral (#) */
 
 #home {
-    text-align: center;
+    text-align: left;
     padding: 200px 0 150px;
 }
 
@@ -169,12 +171,12 @@ header nav a.active {
 }
 
 #home .social a:hover {
-    background-color: #fed136;
+    background-color: #f5f2e9;
 }
 
 #home {
-    text-align: center;
-    padding: 200px 0 150px;
+    text-align: left;
+ 
 }
 
 #home h1 {
@@ -185,7 +187,7 @@ header nav a.active {
 #home p {
     font-size: 1.4rem;
     margin-top: 40px;
-    color: #fff;
+    color: #d48b8b;
 }
 
 #home .divider {
@@ -223,7 +225,7 @@ header nav a.active {
 /*secciones*/
 
 section {
-    padding: 80px 0;
+   
 }
 
 p {
@@ -241,7 +243,7 @@ section h2 {
 
 #servicios .box {
     display: inline-block;
-    padding-left: 30%;
+    padding-left: 3%;
     padding-bottom: 10px;
     box-sizing: content-box;
 }
@@ -313,3 +315,4 @@ left: 10%;
 align-items:center ;
     
 }
+
